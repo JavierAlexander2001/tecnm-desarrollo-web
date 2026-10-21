@@ -74,8 +74,13 @@ Repositorio oficial y entorno de laboratorio interactivo para el curso de **Desa
 * **40% Laboratorios Diarios:** Cuadernos Colab ejecutados y bitácoras en GitHub.
 * **30% Proyecto Integrador:** API RESTful Full-Stack con persistencia y frontend (4 hitos).
 * **20% Evaluaciones Prácticas:** 4 hitos prácticos de unidad.
+
 * **10% Participación Activa:** Sesiones síncronas en MS Teams.
 
 ---
 **Docente Titular:** MCC. Iván Márquez Larios (`ijmarquezl`)  
 **Tecnológico Nacional de México — Campus Cancún**
+
+* Alumno: Javier Alexander Aviles Darza
+* Matricula: 23531054
+* Carrera: Ingeniería en sistemas computacionales
