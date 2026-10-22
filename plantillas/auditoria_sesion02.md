@@ -11,7 +11,7 @@
 ## 1. Fase 1: El Artesano (Dificultad Manual)
 *Reto:* Enrutamiento manual por verbo HTTP  
 *Describe qué dificultad encontraste al procesar la petición HTTP o validar campos a mano:*
-> 
+> La dificultad fue comprender cómo funciona cada método HTTP y cómo manejar los códigos de respuesta. También tuve que identificar cuándo devolver un error 404 si un libro no existe y un 405 cuando el método no está permitido.
 
 ---
 
