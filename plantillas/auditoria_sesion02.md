@@ -27,7 +27,7 @@
 
 ### 2.2 Prompt Estructurado
 ```text
-[Pega aquí el prompt formal que redactaste para la IA]
+Necesito crear una API de libros utilizando Python y FastAPI. Debe permitir registrar libros con POST, consultar con GET, actualizar con PUT y eliminar con DELETE. Los libros deben guardarse en memoria, sin utilizar una base de datos. La API debe responder con los códigos HTTP correctos, incluyendo 404 cuando un libro no existe y 405 cuando se utiliza un método no permitido. Genera el código completo de app.py y asegúrate de cumplir los ocho casos de prueba de la actividad.[Pega aquí el prompt formal que redactaste para la IA]
 ```
 
 ---
