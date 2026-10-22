@@ -34,8 +34,6 @@
 
 ## 3. Código Devuelto por el Modelo
 ```python
-# Código devuelto por el LLM
-```
 %%writefile app.py
 
 from fastapi import FastAPI, HTTPException, status
@@ -116,7 +114,9 @@ def eliminar_libro(id: int):
         )
 
     del libros[id]
-    return None
+    return None# Código devuelto por el LLM
+```
+
 ---
 
 ## 4. Fase 3: El Auditor (Resultados del Test Harness HTTP)
