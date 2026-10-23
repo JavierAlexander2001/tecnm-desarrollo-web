@@ -11,7 +11,7 @@
 ## 1. Fase 1: El Artesano (Dificultad Manual)
 *Reto:* Lectura y emisión manual de encabezados HTTP  
 *Describe qué dificultad encontraste al procesar la petición HTTP o validar campos a mano:*
-> 
+> La dificultad que encontré fue entender cómo revisar los encabezados de una petición y comprobar si los datos que manda el cliente están en el formato correcto. También tuve que aprender la diferencia entre Content-Type y Accept, porque uno indica el formato que envío y el otro el formato que quiero recibir.
 
 ---
 
@@ -20,10 +20,10 @@
 ### 2.1 Matriz de Especificación Formal (Contrato OpenAPI / DTO)
 | Elemento C-R-E-O | Definición Técnica |
 | :--- | :--- |
-| **Contexto (C)** | FastAPI 0.110+ (Python 3.10+) o PHP 8.2 con servidor embebido |
-| **Rol (R)** | Arquitecto de software senior especialista en APIs RESTful y Seguridad Web |
-| **Especificación (E)** | Invariantes de negociación (Content-Type vs Accept) |
-| **Output (O)** | Solo código modular, esquemas Pydantic/DTO y códigos HTTP semánticos |
+| **Contexto (C)** | Estoy trabajando en Google Colab con Python y FastAPI para crear una API de libros. |
+| **Rol (R)** | Quiero que la IA me ayude a desarrollar una API y validar correctamente los encabezados HTTP. |
+| **Especificación (E)** | Crear las rutas POST y GET para libros. El POST solo acepta JSON y devuelve 415 si el formato no es compatible. El GET devuelve 406 si el cliente solicita XML. Las respuestas correctas deben usar JSON, con código 201 al crear un libro y 200 al consultar la lista. |
+| **Output (O)** | Obtener el archivo app.py, pasar las cuatro pruebas de verificación y completar la bitácora de auditoría. |
 
 ### 2.2 Prompt Estructurado
 ```text
