@@ -2,8 +2,8 @@
 **Materia:** Desarrollo de Aplicaciones Web (DAB-2201)  
 **Tema:** Anatomía RESTful, URIs Nombres y Recursos  
 **Docente Titular:** MCC. Iván Márquez Larios (`ijmarquezl`)  
-**Estudiante:** [Nombre Completo]  
-**Matrícula:** [No. de Control]  
+**Estudiante:** [Javier Alexader Aviles Darza]  
+**Matrícula:** [23531054]  
 **Track:** [ Python/FastAPI | PHP 8+ ]  
 
 ---
