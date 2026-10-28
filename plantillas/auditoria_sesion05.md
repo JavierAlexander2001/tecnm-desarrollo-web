@@ -2,8 +2,8 @@
 **Materia:** Desarrollo de Aplicaciones Web (DAB-2201)  
 **Tema:** Pydantic v2 / DTOs en PHP y Tipado Estático  
 **Docente Titular:** MCC. Iván Márquez Larios (`ijmarquezl`)  
-**Estudiante:** [Nombre Completo]  
-**Matrícula:** [No. de Control]  
+**Estudiante:** [Jvier Alexander Aviles Darza]  
+**Matrícula:** [23531054]  
 **Track:** [ Python/FastAPI | PHP 8+ ]  
 
 ---
