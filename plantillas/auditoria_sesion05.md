@@ -11,7 +11,7 @@
 ## 1. Fase 1: El Artesano (Dificultad Manual)
 *Reto:* DTO manual con validación de tipos primitivos  
 *Describe qué dificultad encontraste al procesar la petición HTTP o validar campos a mano:*
-> 
+> Al principio me costó validar los datos que recibía la API y comprobar que cada campo tuviera el tipo correcto. También necesitaba evitar que se aceptaran datos adicionales que no pertenecían al libro. Con Pydantic pude hacer estas validaciones de una manera más sencilla.
 
 ---
 
