@@ -104,4 +104,4 @@ def listar_libros() -> dict[str, list[LibroSalida]]:
 > Al revisar el código, comprobé que era necesario rechazar los campos adicionales y los datos incorrectos. Para solucionarlo, utilicé `ConfigDict(extra="forbid")` en el DTO de entrada, de modo que los campos no permitidos generen un error HTTP 422. También separé el DTO de entrada del DTO de salida para controlar los datos que recibe y devuelve la API.
 
 ---
-**Firma digital:** [Usuario de GitHub]
+**Firma digital:** [Javier Alexander2001]
