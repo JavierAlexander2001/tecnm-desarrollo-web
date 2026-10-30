@@ -121,4 +121,4 @@ def listar_libros(
 > La primera versión del código no tenía todas las validaciones necesarias. Se corrigió utilizando Field para establecer los límites del título, año y precio, y Query para controlar el límite de resultados. También se comprobó que los datos incorrectos generaran el código HTTP 422 y que las peticiones correctas respondieran con los códigos 201 y 200.
 
 ---
-**Firma digital:** [Usuario de GitHub]
+**Firma digital:** [Javier Alxander2001]
