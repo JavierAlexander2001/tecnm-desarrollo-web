@@ -132,9 +132,7 @@ def agregar_libro(libro: Libro):
 ### Reporte Crítico
 *¿Qué código de estado HTTP o falla de seguridad omitió la IA y cómo lo corregiste?*
 >La IA inicialmente no consideró que los datos enviados por la prueba podían tener campos adicionales. Por eso, al registrar un libro válido, la API respondía con HTTP 422 en lugar de HTTP 201.
-
 Para corregirlo modifiqué el modelo Pydantic utilizando ConfigDict(extra="allow"), manteniendo la validación para evitar títulos vacíos.
-
 También comprobé que los errores 404 y 422 tuvieran el mismo formato JSON, facilitando la comprensión de los mensajes para el cliente. 
 
 ---
