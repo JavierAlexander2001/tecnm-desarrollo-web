@@ -2,8 +2,8 @@
 **Materia:** Desarrollo de Aplicaciones Web (DAB-2201)  
 **Tema:** Middleware Web, Intercepción y Logging de Transacciones  
 **Docente Titular:** MCC. Iván Márquez Larios (`ijmarquezl`)  
-**Estudiante:** [Nombre Completo]  
-**Matrícula:** [No. de Control]  
+**Estudiante:** [Javier Alexander Aviles Darza]  
+**Matrícula:** [23531054]  
 **Track:** [ Python/FastAPI | PHP 8+ ]  
 
 ---
@@ -11,7 +11,7 @@
 ## 1. Fase 1: El Artesano (Dificultad Manual)
 *Reto:* Middleware manual de tiempo de respuesta (X-Process-Time)  
 *Describe qué dificultad encontraste al procesar la petición HTTP o validar campos a mano:*
-> 
+> La dificultad que encontré fue medir el tiempo de cada petición y agregar los encabezados correctamente. En mi primer código olvidé generar un identificador cuando el cliente no lo enviaba, por lo que algunas respuestas no tenían todas las cabeceras necesarias.
 
 ---
 
@@ -20,8 +20,8 @@
 ### 2.1 Matriz de Especificación Formal (Contrato OpenAPI / DTO)
 | Elemento C-R-E-O | Definición Técnica |
 | :--- | :--- |
-| **Contexto (C)** | FastAPI 0.110+ (Python 3.10+) o PHP 8.2 con servidor embebido |
-| **Rol (R)** | Arquitecto de software senior especialista en APIs RESTful y Seguridad Web |
+| **Contexto (C)** | Python 3 con FastAPI en Google Colab. |
+| **Rol (R)** | Desarrollador web especializado en Python y creación de API REST. |
 | **Especificación (E)** | Interceptor de peticiones y auditoría de IP/User-Agent |
 | **Output (O)** | Solo código modular, esquemas Pydantic/DTO y códigos HTTP semánticos |
 
