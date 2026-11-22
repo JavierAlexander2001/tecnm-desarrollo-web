@@ -176,6 +176,13 @@ RESULTADO: 4/4 casos correctos. ¡Resultado logrado!
 
 ### 2
 
+✅ Se usa el flujo OAuth2 de FastAPI
+
+------------------------------------------------------------------------------
+
+RESULTADO: 1/1 comprobaciones correctas. ¡Resultado logrado!
+
+
 ## 4. Fase 3: El Auditor (Resultados del Test Harness HTTP)
 *Pruebas ejecutadas:* Pruebas de acceso no autorizado sin token (HTTP 401)
 
