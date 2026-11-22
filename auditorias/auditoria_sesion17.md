@@ -187,6 +187,31 @@ def panel_admin(usuario: dict = Depends(verificar_admin)):
 ```
 
 ---
+## Evidencia Evaluación
+
+==============================================================================
+
+VERIFICACIÓN DEL RESULTADO · 6 casos · app.py
+
+==============================================================================
+
+✅ 01. El administrador obtiene su token
+
+✅ 02. El usuario normal obtiene su token
+
+✅ 03. El admin entra al panel
+
+✅ 04. El usuario normal recibe 403
+
+✅ 05. Sin token recibe 401
+
+✅ 06. El perfil funciona para el usuario normal
+
+------------------------------------------------------------------------------
+
+RESULTADO: 6/6 casos correctos. ¡Resultado logrado!
+
+
 
 ## 4. Fase 3: El Auditor (Resultados del Test Harness HTTP)
 *Pruebas ejecutadas:* Pruebas de acceso denegado por rol insuficiente (HTTP 403)
