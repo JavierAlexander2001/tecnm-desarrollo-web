@@ -94,14 +94,23 @@ Explicación: FastAPI utiliza el modelo Mensaje para validar el cuerpo de la pet
 
 ## Evidencia del verificador
 ==============================================================================
+
 VERIFICACIÓN DEL RESULTADO · 4 casos · app.py
+
 ==============================================================================
+
 ✅ 01. El servidor está vivo y responde JSON
+
 ✅ 02. El eco devuelve el mensaje recibido
+
 ✅ 03. Un JSON roto no tumba el servidor
+
 ✅ 04. El método incorrecto se rechaza con 405
+
 ------------------------------------------------------------------------------
+
 RESULTADO: 4/4 casos correctos. ¡Resultado logrado!
+
 
 
 ### Reporte Crítico
