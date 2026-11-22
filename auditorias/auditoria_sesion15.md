@@ -159,6 +159,12 @@ RESULTADO: 4/4 casos correctos. ¡Resultado logrado!
 
 ### 2 
 
+✅ Se usa una librería JWT
+
+------------------------------------------------------------------------------
+
+RESULTADO: 1/1 comprobaciones correctas. ¡Resultado logrado!
+
 
 ## 4. Fase 3: El Auditor (Resultados del Test Harness HTTP)
 *Pruebas ejecutadas:* Pruebas con tokens alterados o firma inválida
