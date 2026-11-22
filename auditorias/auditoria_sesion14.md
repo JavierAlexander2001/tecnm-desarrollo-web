@@ -145,6 +145,26 @@ def login(datos: Usuario):
 ```
 
 ---
+## Evidencia Evaluación
+### 1
+
+==============================================================================
+
+VERIFICACIÓN DEL RESULTADO · 3 casos · app.py
+
+==============================================================================
+
+✅ 01. El registro responde sin filtrar la contraseña
+
+✅ 02. El login correcto autentica
+
+✅ 03. La contraseña incorrecta se rechaza
+
+------------------------------------------------------------------------------
+
+RESULTADO: 3/3 casos correctos. ¡Resultado logrado!
+
+### 2
 
 ## 4. Fase 3: El Auditor (Resultados del Test Harness HTTP)
 *Pruebas ejecutadas:* Pruebas contra ataques de Rainbow Tables y Timing
