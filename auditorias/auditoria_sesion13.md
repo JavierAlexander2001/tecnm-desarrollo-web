@@ -160,6 +160,25 @@ def logout(
 ```
 
 ---
+## Evidencia Evaluación
+
+==============================================================================
+
+VERIFICACIÓN DEL RESULTADO · 4 casos · app.py
+
+==============================================================================
+
+✅ 01. Login correcto y cookie HttpOnly
+
+✅ 02. El perfil se obtiene con la cookie
+
+✅ 03. El logout cierra la sesión
+
+✅ 04. Después del logout el perfil es 401
+
+------------------------------------------------------------------------------
+
+RESULTADO: 4/4 casos correctos. ¡Resultado logrado!
 
 ## 4. Fase 3: El Auditor (Resultados del Test Harness HTTP)
 *Pruebas ejecutadas:* Pruebas de expiración y revocación de sesión
