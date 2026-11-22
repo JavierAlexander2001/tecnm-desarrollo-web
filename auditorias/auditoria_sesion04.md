@@ -134,6 +134,27 @@ def obtener_libros_autor(
 
 ---
 
+## EVIDENCIA VERIFICADOR 
+
+==============================================================================
+
+VERIFICACIÓN DEL RESULTADO · 4 casos · app.py
+
+==============================================================================
+
+✅ 01. Libros del autor 1
+
+✅ 02. Filtro por género y límite
+
+✅ 03. Un autor inexistente produce 404
+
+✅ 04. La colección completa de libros
+
+------------------------------------------------------------------------------
+
+RESULTADO: 4/4 casos correctos. ¡Resultado logrado!
+
+
 ## 4. Fase 3: El Auditor (Resultados del Test Harness HTTP)
 *Pruebas ejecutadas:* Pruebas de peticiones a recursos inexistentes (404)
 
