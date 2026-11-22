@@ -151,6 +151,30 @@ def consultar_perfil(
 ```
 
 ---
+## Evidencia Evaluación
+
+### 1
+
+==============================================================================
+
+VERIFICACIÓN DEL RESULTADO · 4 casos · app.py
+
+==============================================================================
+
+✅ 01. El formulario de login emite token
+
+✅ 02. El token Bearer abre el perfil
+
+✅ 03. Sin token se responde 401 con WWW-Authenticate
+
+✅ 04. Un esquema distinto se rechaza
+
+------------------------------------------------------------------------------
+
+RESULTADO: 4/4 casos correctos. ¡Resultado logrado!
+
+
+### 2
 
 ## 4. Fase 3: El Auditor (Resultados del Test Harness HTTP)
 *Pruebas ejecutadas:* Pruebas de acceso no autorizado sin token (HTTP 401)
