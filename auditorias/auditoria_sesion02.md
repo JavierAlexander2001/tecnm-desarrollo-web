@@ -118,6 +118,7 @@ def eliminar_libro(id: int):
 ```
 
 ---
+
 ## Evidencia del verificador
 
 
