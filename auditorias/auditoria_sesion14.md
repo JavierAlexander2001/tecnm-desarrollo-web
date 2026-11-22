@@ -166,6 +166,12 @@ RESULTADO: 3/3 casos correctos. ¡Resultado logrado!
 
 ### 2
 
+✅ Se usa un algoritmo de hashing para contraseñas
+
+------------------------------------------------------------------------------
+
+RESULTADO: 1/1 comprobaciones correctas. ¡Resultado logrado!
+
 ## 4. Fase 3: El Auditor (Resultados del Test Harness HTTP)
 *Pruebas ejecutadas:* Pruebas contra ataques de Rainbow Tables y Timing
 
