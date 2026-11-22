@@ -145,6 +145,10 @@ Después, ejecuté el verificador del cuaderno para comprobar si el código cump
 
 ---
 
+## Evidencia Verificador
+
+
+
 ## 4. Fase 3: El Auditor (Resultados del Test Harness HTTP)
 *Pruebas ejecutadas:* Pruebas con tipos de contenido no soportados (415)
 
