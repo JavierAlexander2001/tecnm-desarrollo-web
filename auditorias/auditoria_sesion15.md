@@ -136,6 +136,30 @@ def consultar_perfil(authorization: str | None = Header(default=None)):
 
 ---
 
+## evidencia Evaluación
+### 1
+
+==============================================================================
+
+VERIFICACIÓN DEL RESULTADO · 4 casos · app.py
+
+==============================================================================
+
+✅ 01. El login emite un token
+
+✅ 02. El token válido abre el perfil
+
+✅ 03. Un token alterado es rechazado
+
+✅ 04. Sin token no hay acceso
+
+------------------------------------------------------------------------------
+
+RESULTADO: 4/4 casos correctos. ¡Resultado logrado!
+
+### 2 
+
+
 ## 4. Fase 3: El Auditor (Resultados del Test Harness HTTP)
 *Pruebas ejecutadas:* Pruebas con tokens alterados o firma inválida
 
