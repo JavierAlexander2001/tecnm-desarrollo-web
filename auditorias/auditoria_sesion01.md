@@ -115,7 +115,7 @@ RESULTADO: 4/4 casos correctos. ¡Resultado logrado!
 
 ### Reporte Crítico
 *¿Qué código de estado HTTP o falla de seguridad omitió la IA y cómo lo corregiste?*
-> La verificación comprueba que la API responda con los códigos HTTP correctos. Una posible falla sería no validar el cuerpo JSON o permitir un método HTTP incorrecto. Para resolverlo, utilicé un modelo Pydantic y definí las rutas con los métodos GET y POST correspondientes. Los resultados finales deben confirmarse ejecutando el verificador del curso.
+> La verificación comprueba que la API responda con los códigos HTTP correctos. Una posible falla sería no validar el cuerpo JSON o permitir un método HTTP incorrecto. Para resolverlo, utilicé un modelo Pydantic y definí las rutas con los métodos GET y POST correspondientes.
 
 ---
 **Firma digital:** [Javier Alexander2001]
