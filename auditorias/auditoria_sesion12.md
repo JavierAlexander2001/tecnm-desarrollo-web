@@ -158,6 +158,14 @@ RESULTADO: 4/4 casos correctos. ¡Resultado logrado!
 
 ### 2
 
+✅ El endpoint usa Depends
+
+✅ Existe la función de inyección
+
+------------------------------------------------------------------------------
+
+RESULTADO: 2/2 comprobaciones correctas. ¡Resultado logrado!
+
 
 
 ## 4. Fase 3: El Auditor (Resultados del Test Harness HTTP)
