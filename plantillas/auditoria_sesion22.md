@@ -276,7 +276,7 @@ RESULTADO: 1/1 comprobaciones correctas. ¡Resultado logrado!
 
 ### Reporte Crítico
 *¿Qué código de estado HTTP o falla de seguridad omitió la IA y cómo lo corregiste?*
-> 
+> Una de las cosas que tuve que considerar fue que no bastaba con crear las tablas y los endpoints. También era necesario comprobar que las relaciones entre los modelos estuvieran declaradas correctamente y que no se pudieran registrar libros con autores inexistentes. Para solucionarlo, agregué una consulta que verifica la existencia del autor y devuelve un error HTTP 404 cuando no se encuentra.
 
 ---
-**Firma digital:** [Usuario de GitHub]
+**Firma digital:** [Javier Alexander2001]
