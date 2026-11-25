@@ -270,9 +270,9 @@ RESULTADO: 1/1 comprobaciones correctas. ¡Resultado logrado!
 ## 4. Fase 3: El Auditor (Resultados del Test Harness HTTP)
 *Pruebas ejecutadas:* Pruebas de integridad referencial y cascadas
 
-* [ ] Respuestas semánticas correctas (`200 OK`, `201 Created`, `400 Bad Request`, `422 Unprocessable`).
-* [ ] No existen respuestas HTTP `500 Internal Server Error` no capturadas.
-* [ ] Encabezados `Content-Type: application/json` correctamente configurados.
+* [x] Respuestas semánticas correctas (`200 OK`, `201 Created`, `400 Bad Request`, `422 Unprocessable`).
+* [x] No existen respuestas HTTP `500 Internal Server Error` no capturadas.
+* [x] Encabezados `Content-Type: application/json` correctamente configurados.
 
 ### Reporte Crítico
 *¿Qué código de estado HTTP o falla de seguridad omitió la IA y cómo lo corregiste?*
